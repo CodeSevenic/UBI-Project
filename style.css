@@ -1,0 +1,20 @@
+﻿*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
