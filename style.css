@@ -18,3 +18,7 @@ body {
   background-color: white;
   height: 100vh;
 }
+
+header .ubi-logo {
+  width: 100%;
+}
