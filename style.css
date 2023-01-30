@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   background-color: white;
   height: 100vh;
+  padding: 40px 20px;
 }
 
 header .ubi-logo {
