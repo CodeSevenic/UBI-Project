@@ -22,8 +22,8 @@ body {
   max-width: 480px;
   margin: 0 auto;
   background-color: white;
-  height: 100vh;
-  padding: 40px 20px;
+  /* height: 100vh; */
+  padding: 40px 40px;
   line-height: normal;
 }
 
@@ -33,10 +33,6 @@ header .ubi-logo {
 
 header .ubi-logo img {
   width: 100%;
-}
-
-p {
-  line-height: 1.5;
 }
 
 h1,
@@ -54,4 +50,14 @@ h2 {
 
 .news-letter-content {
   color: var(--textClr);
+}
+
+.news-letter-content ul {
+  padding-left: 30px;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+.news-letter-content ul li {
+  margin: 10px 0;
 }
