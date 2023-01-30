@@ -60,14 +60,20 @@ h4 {
 .news-letter-content {
   color: var(--textClr);
   margin-bottom: 40px;
+  line-height: 23px;
 }
 
 .news-letter-content ul {
   padding-left: 30px;
   margin: 20px 0;
-  line-height: 1.5;
+  line-height: 23px;
 }
 
 .news-letter-content ul li {
   margin: 10px 0;
+}
+
+.news-letter-gradient {
+  background: rgb(116, 204, 212);
+  background: linear-gradient(250deg, rgba(116, 204, 212, 1) 0%, rgba(134, 117, 182, 1) 57%);
 }
