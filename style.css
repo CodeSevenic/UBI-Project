@@ -79,9 +79,20 @@ h4 {
   border-radius: 20px;
   padding: 40px 40px;
   color: #fff;
+  font-size: 17px;
   line-height: 23px;
+  margin-bottom: 50px;
 }
 
 .news-letter-gradient h4 {
   color: #fff;
+}
+
+.news-letter-gradient .icon-img {
+  width: fit-content;
+  margin-bottom: var(--headingBttmMrgn);
+}
+
+.news-letter-gradient img {
+  max-width: 100%;
 }
