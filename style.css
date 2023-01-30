@@ -112,3 +112,79 @@ h4 {
 .pdf-download h2 {
   color: #fff;
 }
+
+button.pdf-cta {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+button.pdf-cta a {
+  display: block;
+  font-size: 25px;
+  line-height: 46px;
+  color: #8675b6;
+  background: #fff;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.faq-prompt {
+  padding: 40px 40px;
+}
+
+.faq-prompt p {
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 35px;
+  color: #8675b6;
+}
+
+.faq-prompt > p:nth-child(3) {
+  margin-bottom: 50px;
+}
+
+.faq-prompt button.whatsapp-cta {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+}
+
+.faq-prompt button.whatsapp-cta a {
+  display: block;
+  font-size: 25px;
+  line-height: 46px;
+  color: #fff;
+  background: #8675b6;
+  padding: 10px 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.whatsapp-cta a img {
+  display: block;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 376px) {
+  .faq-prompt button.whatsapp-cta a,
+  .faq-prompt p,
+  button.pdf-cta a,
+  h4 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 28px !important;
+    line-height: 36px;
+  }
+}
