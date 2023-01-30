@@ -10,7 +10,7 @@
 :root {
   --textClr: #666766;
   --textClrHeading: #8675b6;
-  --headingBttmMrgn: 40px;
+  --headingBttmMrgn: 30px;
 }
 
 html {
@@ -38,7 +38,16 @@ header .ubi-logo img {
 h1,
 h2 {
   color: var(--textClrHeading);
-  margin-bottom: ;
+  margin-bottom: var(--headingBttmMrgn);
+  font-size: 38px;
+  line-height: 46px;
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500;
+  color: var(--textClrHeading);
   margin-bottom: var(--headingBttmMrgn);
 }
 
@@ -50,6 +59,7 @@ h2 {
 
 .news-letter-content {
   color: var(--textClr);
+  margin-bottom: 40px;
 }
 
 .news-letter-content ul {
