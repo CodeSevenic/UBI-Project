@@ -96,3 +96,8 @@ h4 {
 .news-letter-gradient img {
   max-width: 100%;
 }
+
+.pdf-download {
+  background: #8675b6;
+  padding: 40px;
+}
