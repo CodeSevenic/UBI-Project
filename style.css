@@ -7,6 +7,12 @@
   text-decoration: none;
 }
 
+:root {
+  --textClr: #666766;
+  --textClrHeading: #8675b6;
+  --headingBttmMrgn: 40px;
+}
+
 html {
   background-color: black;
 }
@@ -18,6 +24,7 @@ body {
   background-color: white;
   height: 100vh;
   padding: 40px 20px;
+  line-height: normal;
 }
 
 header .ubi-logo {
@@ -26,4 +33,25 @@ header .ubi-logo {
 
 header .ubi-logo img {
   width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  color: var(--textClrHeading);
+  margin-bottom: ;
+  margin-bottom: var(--headingBttmMrgn);
+}
+
+p.news-letter-issue {
+  color: var(--textClr);
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.news-letter-content {
+  color: var(--textClr);
 }
