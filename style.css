@@ -1,4 +1,6 @@
-﻿*,
+﻿@import url('https://fonts.cdnfonts.com/css/apex-new');
+
+*,
 *::after,
 *::before {
   box-sizing: border-box;
@@ -48,6 +50,11 @@ h2 {
   margin-bottom: var(--headingBttmMrgn);
   font-size: 38px;
   line-height: 46px;
+  font-family: 'Apex New Bold', sans-serif;
+}
+
+a {
+  font-family: 'Apex New Bold', sans-serif;
 }
 
 h4 {
@@ -56,18 +63,22 @@ h4 {
   font-weight: 500;
   color: var(--textClrHeading);
   margin-bottom: var(--headingBttmMrgn);
+  font-family: 'Apex New Medium', sans-serif;
 }
 
 .news-letter-issue {
   color: var(--textClr);
   font-weight: bold;
   margin: 30px 40px;
+  font-family: 'Apex New Bold', sans-serif;
+  font-size: 20px;
 }
 
 .news-letter-content {
   color: var(--textClr);
   margin-bottom: 40px;
   line-height: 23px;
+  font-family: 'Apex New Book', sans-serif;
 }
 
 .news-letter-content ul {
@@ -89,6 +100,7 @@ h4 {
   font-size: 17px;
   line-height: 23px;
   margin-bottom: 50px;
+  font-family: 'Apex New Book', sans-serif;
 }
 
 .news-letter-gradient h4 {
@@ -141,6 +153,7 @@ button.pdf-cta a {
   font-size: 25px;
   line-height: 35px;
   color: #8675b6;
+  font-family: 'Apex New Medium', sans-serif;
 }
 
 .faq-prompt > p:nth-child(3) {
