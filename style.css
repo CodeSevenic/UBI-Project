@@ -28,7 +28,7 @@ body {
 }
 
 .ubi-container {
-  margin: 40px 40px;
+  margin: 40px 30px;
 }
 
 nav.ubi-container {
@@ -69,7 +69,7 @@ h4 {
 .news-letter-issue {
   color: var(--textClr);
   font-weight: bold;
-  margin: 30px 40px;
+  margin: 30px 30px;
   font-family: 'Apex New Bold', sans-serif;
   font-size: 20px;
 }
@@ -95,7 +95,7 @@ h4 {
   background: rgb(116, 204, 212);
   background: linear-gradient(250deg, rgba(116, 204, 212, 1) 0%, rgba(134, 117, 182, 1) 100%);
   border-radius: 20px;
-  padding: 40px 40px;
+  padding: 40px 30px;
   color: #fff;
   font-size: 17px;
   line-height: 23px;
